@@ -28,7 +28,7 @@ q3 = Question2(3,
                "Disconnecting from the internet is an effective method of reversing a phishing attack because perpetrators no longer have access to your network.",
                "If you recieve a phishing email from someone you know, you shouldn't try to contact them via some alternative means of communication(phone or text message) to confirm it.",
                1,
-               "")
+               "Website spoofing, aka domain spoofing, occurs when a scammer creates a fraudulent website, mimicking a trusted company, oftentimes with the goal of stealing visitors' personal information.")
 q4 = Question2(4,
                "Which one of the statements is correct?",
                "Phishing emails tend to grow more sophisticated each day, thus we must all take precaution upon viewing them",
@@ -68,7 +68,7 @@ q8 = Question2(8,
                "Text phishing.",
                "Vishing.",
                1,
-               "")
+               "Smishing is a phishing cybersecurity attack carried out over mobile text messaging, also known as SMS phishing.")
 q9 = Question2(9,
                "What are the most common signs of a phishing scams?",
                "Attractive layout and nice graphics.",
@@ -79,15 +79,40 @@ q9 = Question2(9,
                "Attackers always create a sense of urgency to make the victim panic and make mistakes such as clicking a scam link.")
 q10 = Question2(10, 
                 "What is the most common kind of phishing attack?",
-                "URL based", 
+                "Contact them via phone or email to discuss the job position further.", 
                 "Smishing", 
                 "Email based.", 
                 "Vishing",
                 3,
                 "About 3.4 billion phishing emails are sent daily"
                 )
+q11 = Question2(11,
+               "You see a job advert from a company that is hiring for a junior software developer. This position features a salary of around 800 to 1000 NZD per day, with a flexible working schedule as you will be working from home. Although you are unemployed and in desperate need of a job, what is an appropriate action to take?",
+               "Provide your personal details, such as location and past employment history before sending in your application.",
+               "Contact them via phone or email to discuss the job position further.",
+               "Ignore the listing, and be on the lookout for other jobs",
+               "Browse the web to look for independant reviews (e.g. Glassdoor, Indeed).",
+               4,
+               "It is unusual for developer to pay so generously for junior positions - that on it's own is a red flag.")
+q12 = Question2(12,
+               "After months of chatting with someone on Tinder, you suddenly realise something fishy going on. Which of the following are plausible signs that your online love interest is fake?",
+               "They express their affection for you very quickly.",
+               "They're working in another country and mention a problem with their visa.",
+               "They want you to send them sensitive documentation such as your birth certificate and/or passport.",
+               "All of the above.",
+               4,
+               "Scammers frequently utilise dating and romance as a means of defrauding you of your money and personal information. If they ask or persuade you for something of monetary gain, the best thing to do is to unmatch them.")
+q13 = Question2(13, 
+                "You pick up a call from someone claiming to be from technical support. One thing leads to the other and you find out your bank account has been depleted. What is the name of this scam?",
+                "Hacking.", 
+                "Remote Access scam.", 
+                "Wrong number.", 
+                "The "'Nigerian'" scam",
+                4,
+                "Scammers will frequently phone, posing as well-known IT or telecom firms, and say that something is wrong with your computer and requesting remote access to fix it."
+                )
 
-qlist = [q1, q2, q3, q4, q5, q6, q7, q8, q9, q10]  # the list stores all the Questions
+qlist = [q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12, q13]  # the list stores all the Questions
 wrongQ = []
 
 
