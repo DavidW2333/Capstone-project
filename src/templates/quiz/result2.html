@@ -2,8 +2,8 @@
     <p><b>Awesome! You are correct!</b></p>
 
 {% else %}
-    <p><b>Ops, try harder next round!</b></p>
-    <p>Reason: {{ question.get_reason() }}</p>
+    <p><b>Bad luck, try harder next round!</b></p>
+    <p><b>Reason:</b> {{ question.get_reason() }}</p>
 
 {% endif %}
 
