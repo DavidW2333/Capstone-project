@@ -86,33 +86,9 @@ q10 = Question2(10,
                 3,
                 "About 3.4 billion phishing emails are sent daily"
                 )
-q11 = Question2(11,
-               "You see a job advert from a company that is hiring for a junior software developer. This position features a salary of around 800 to 1000 NZD per day, with a flexible working schedule as you will be working from home. Although you are unemployed and in desperate need of a job, what is an appropriate action to take?",
-               "Provide your personal details, such as location and past employment history before sending in your application.",
-               "Contact them via phone or email to discuss the job position further.",
-               "Ignore the listing, and be on the lookout for other jobs",
-               "Browse the web to look for independant reviews (e.g. Glassdoor, Indeed).",
-               4,
-               "It is unusual for developer to pay so generously for junior positions - that on it's own is a red flag.")
-q12 = Question2(12,
-               "After months of chatting with someone on Tinder, you suddenly realise something fishy going on. Which of the following are plausible signs that your online love interest is fake?",
-               "They express their affection for you very quickly.",
-               "They're working in another country and mention a problem with their visa.",
-               "They want you to send them sensitive documentation such as your birth certificate and/or passport.",
-               "All of the above.",
-               4,
-               "Scammers frequently utilise dating and romance as a means of defrauding you of your money and personal information. If they ask or persuade you for something of monetary gain, the best thing to do is to unmatch them.")
-q13 = Question2(13, 
-                "You pick up a call from someone claiming to be from technical support. One thing leads to the other and you find out your bank account has been depleted. What is the name of this scam?",
-                "Hacking.", 
-                "Remote Access scam.", 
-                "Wrong number.", 
-                "The "'Nigerian'" scam",
-                4,
-                "Scammers will frequently phone, posing as well-known IT or telecom firms, and say that something is wrong with your computer and requesting remote access to fix it."
-                )
 
-qlist = [q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12, q13]  # the list stores all the Questions
+
+qlist = [q1, q2, q3, q4, q5, q6, q7, q8, q9, q10]  # the list stores all the Questions
 wrongQ = []
 
 
